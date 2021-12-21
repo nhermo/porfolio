@@ -1,0 +1,224 @@
+/*rojo C91051 azul 1D2443*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 2em;
+}
+img{
+    width:100%;
+}
+a{
+    color: white;
+}
+.actividades a{
+    color: #C91051;
+}
+
+.servicios a{
+    color: #C91051;
+}
+ul{
+    padding-left: 1em;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+.cabeceraindex{
+    background-image: url(img/cabeceraindex.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.cabecera{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    background-attachment: fixed;
+}
+.cabecera h1{
+    position: absolute;
+    top:35%;
+    right: 10%;
+}
+.separador{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-image: url(img/separador.jpg);
+}
+.cabecerapilates{
+    background-image: url(img/cabecerapilates.jpg);
+}
+.cabecerablog{
+    background-image: url(img/cabecerablog.jpg);
+}
+.cabeceraservicios{
+    background-image: url(img/cabeceraservicios.jpg);
+}
+
+
+
+.cabeceravibrofitness{
+    background-image: url(img/cabeceravibro.jpg);
+}
+
+.cabecerafitness{
+    background-image: url(img/cabecerafitness.jpg);
+}
+
+.cabecerakickboxing{
+    background-image: url(img/cabecerakickboxing.jpg);
+}
+.cabeceraindex h1{
+    font-weight: 300;
+    line-height: 1.8em;
+    font-size: 3vw;
+}
+.beneficiosfisioestetica ul li{
+    margin-bottom: 1.4em;
+    line-height: 1.7em;
+}
+.tablas ul li{
+    margin-bottom: 1.4em;
+    line-height: 1.7em;
+}
+.tablas .row div{
+    border: 1px solid white;
+}
+h1{
+    font-weight: 300;
+    line-height: 1.8em;
+    font-size: 5em;
+}
+h2{
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.carousel-inner{
+    max-height: 80vh;
+    position: relative;
+}
+.instalacionesslider{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 30%;
+    text-align: left;
+}
+.contacto{
+    position: relative;
+}
+.contactoinfo{
+    position:absolute;
+    top:10%;
+    right: 10%;
+    width: 30%;
+    z-index: 10;
+}
+footer{
+    font-size: 0.8em;
+}
+b{
+    font-weight: 600;
+}
+.actividades img{
+    width:50%;
+}
+label{
+    display: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin:auto;
+    z-index: 100;
+    height: 9vh;
+}
+.fa {
+  padding: 20px;
+  font-size: 4em;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 8px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition-delay: .2s;
+    transition-duration: .4s;
+    transition-timing-function: ease-in;
+}
+
+.cabeceraindex{
+    position:relative;
+}
+.cabeceraindex h1{
+    position: absolute;
+    top:20%;
+}
+.cabeceraindex button{
+    position: absolute;
+    bottom: 15%;
+    left: 47%;
+}
+.texto{
+    padding: 0 10%;
+    order:-1;
+}
+.noticias a:hover{
+    color: rgba(255, 255, 255, 0.6);
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+@media screen and (max-width:900px){
+  .order{
+    order:-1;
+}  
+    .cabeceraindex h1{
+    font-size: 1.7em;
+        padding-top: 30%;
+        text-align: center;
+    }
+    .cabeceraindex{
+        position: inherit;
+    }
+    .cabeceraindex h1{
+        width: 100%;
+        top:0%;
+        left: 0%;
+    }
+.cabeceraindex button{
+    position: relative;
+}
+    .navbar{
+        height: 16vh;
+    }
+    h1{
+        font-size: 3em;
+        left:10%;
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: #C91051;
+        padding:0 .8em;
+        width: 100%;
+    }
+    .texto{
+        padding: 0;
+    }
+    h2{
+        font-size: 2em;
+    }
+}
