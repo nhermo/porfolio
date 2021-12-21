@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Stargym</title>
+  </head>
+  <body>
+  
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand col-md-1 col-3 p-1" href="index.html">
+      <img src="img/logo.png" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actividades
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="pilates.html">Pilates</a>
+          <a class="dropdown-item" href="vibrofitness.html">Vibrofitness</a>
+          <a class="dropdown-item" href="fitnessexpress.html">Fitness Express 30</a>
+          <a class="dropdown-item" href="kickboxing.html">Kick-boxing</a>
+        </div>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li></ul>
+    <a class="navbar-brand" href="#">Navbar</a>
+  </div>
+</nav>
+ <div class="contactoinfomobile pb-3 container-fluid p-4 d-md-none d-block" style="padding-top: 20vh !important;">
+           <h3 class="animate__animated animate__pulse">Contacto</h3>
+           <p>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia-San Sebastian, SS</p>
+           <p>De 7:30 a 22:30</p>
+           <p><b>943 943 943 943</b></p>
+           <button class="btn btn-primary">¿Alguna pregunta?</button>
+       </div>
+          <section class="cabecera contacto" style="">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23230.308800380513!2d-2.0213404604492142!3d43.29774859999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b013f0513629%3A0x57e4ff3311f619d9!2s%C3%81rea%20Escuela%20de%20Dise%C3%B1o%20y%20Nuevas%20Tecnolog%C3%ADas!5e0!3m2!1ses!2ses!4v1594312280391!5m2!1ses!2ses" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       <div class="contactoinfo bg-secondary p-4 d-none d-md-block" style="top:20% !important;">
+           <h3>Contacto</h3>
+           <p>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia-San Sebastian, SS</p>
+           <p>De 7:30 a 22:30</p>
+           <p><b>943 943 943 943</b></p>
+       </div>
+   </section>
+ 
+  <section class="container-fluid bg-secondary p-md-5 pt-4 pb-4" id="form">
+      <div class="row">
+          <div class="col-md-4">
+              <h3>¿Alguna pregunta?</h3>
+              <p>
+                  Contácta con nosotros sin ningún tipo de compromiso para cualquier duda o sugerencia. Encuéntranos en:
+              </p>
+              <p>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia-San Sebastian, SS (7:30-22:30)</p>
+           <p><b>943 943 943 943</b></p>
+          </div>
+          <div class="col-md-8">
+              <form method="post" action="enviar_email.php">
+              <div class="form-row justify-content-between">
+               <div class="form-group col-md-4">
+    <label for="exampleFormControlInputname">Nombre</label>
+    <input type="nombre" name="nombre" class="form-control" id="exampleFormControlInputname2" placeholder="Nombre">
+  </div>
+  <div class="form-group col-md-4">
+    <label for="exampleFormControlInputemail">Email</label>
+    <input type="email" name="email" class="form-control" id="exampleFormControlInputemail2" placeholder="name@example.com">
+  </div><div class="form-group col-md-4">
+    <label for="exampleFormControlInputsubjetc">Asunto</label>
+    <input type="asunto" name="asunto" class="form-control" id="exampleFormControlInputsubject2" placeholder="Asunto">
+  </div></div>
+   
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje" name="mensaje"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+         
+          </div>
+      </div>
+  </section>
+   <footer class="container-fluid">
+       <div class="row">
+           <div class="col-md-9">
+               <p>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia-San Sebastian, SS (7:30-22:30) | <b>943 943 943 943</b></p></div>
+            <div class="col-md-3 row justify-content-md-end pb-md-0 pb-3">
+                <a href="avisolegal.html" class="text-white ml-3">Aviso legal</a>
+                <a href="#" class="text-white ml-3">Política de privacidad</a>
+            </div>   
+       </div>
+   </footer>      
+    <!-- Optional JavaScript --
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+      </script>
+  </body>
+</html>
