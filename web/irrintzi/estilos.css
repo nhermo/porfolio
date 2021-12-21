@@ -1,0 +1,376 @@
+/*colores: azul #56B2A1 beige #F8E2BD naranja #F2A762 amarillo #F7E378*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+body{
+    
+	--def: #F2A762; 	
+	--inv: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 200;
+    background-color: white;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: '✓';
+    padding-right: 1em;
+    color: #56B2A1;
+}
+.amarillo ul li:before {
+  content: '✓';
+    padding-right: 1em;
+    color: #F2A762;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: transparent;
+    padding: 1em;
+}
+    header{
+        position: relative;
+        float: left;
+        width: 20%;
+    }
+.redes .width50 .flex{
+    justify-content: flex-start;
+}
+.redes .width50 .flex .width25{
+    margin: 0 2em 0 0;
+}
+/*..... ESTILOS DEL MENÚ ..... */
+nav {
+    padding: 0;
+    height: 40px;
+}
+nav ul {
+	list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    letter-spacing: 0.05em;
+	display:block;
+	padding: 5px 10px;
+	text-decoration: none;
+    color: #F2A762;
+    font-weight: 400;
+}
+nav ul li a:hover {
+    color: #F8E2BD;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+
+nav ul li:before {
+  content: none;
+}
+.btnnav{
+display: none;
+cursor: pointer;
+    width: auto;
+}
+.colornavbar{
+    color:aqua;
+            background-color: white;
+            transition: all 1s;
+    padding:0.25em;
+        }
+.intro .boton{
+    margin: 0;
+}
+.boton{
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid;
+    font-size: 0.8em;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 2em;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro{
+    align-items: center;
+}
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 4.75em;
+    letter-spacing: 0.05em;
+    line-height: 0.85em;
+}
+h2{
+    font-size: 2.1em;
+    margin-bottom: 0.8em;
+}
+.redes h2{
+    font-size: 1.5em;
+}
+.servicios h2{
+    font-weight: 200;
+}
+
+.cabecera{
+    background-image: url(img/index1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 5em;
+    text-align: center;
+}
+.cabecera .txt{
+    margin: auto;
+    padding: 2em;
+}
+.cabeceraindex{
+    background-image: url(img/index1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 15em 10em;
+    text-align: center;
+    color: white;
+}
+.cabeceramendizale{
+    background-image: url(img/mendizale1.jpg);
+    
+    background-attachment: fixed;
+}
+.cabeceratxiki{
+    background-image: url(img/txiki1.jpg);
+    
+    background-attachment: fixed;
+}
+.cabeceraindex .boton{
+    color: white;
+    background-color: #F2A762;
+    border: 0px;
+    line-height: 1.5em;
+    width: 60%;
+}
+.contacto .boton{
+    color: white;
+    background-color: #F2A762;
+    border: 0px;
+    width: 40%;
+}
+.cabeceraindex .boton:hover{
+    background-color: white;
+    color: #F2A762;
+}
+.outline{
+    color: transparent;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: white;
+}
+.azul{
+    background-color: #56B2A1;
+    color: #F8E2BD;
+}
+.beige{
+    background-color: #F8E2BD;
+    color: #F2A762;
+}
+.amarillo{
+    background-color: #F7E378;
+    color: #56B2A1;
+}
+.naranja{
+    background-color: #F2A762;
+    color: #F7E378;
+}
+.azul .boton{
+    color: #F8E2BD;
+}
+.beige .boton{
+    color: #F2A762;
+}
+.amarillo .boton{
+    color: #56B2A1;
+}
+.naranja .boton{
+    color: #F7E378;
+}
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+}
+.width50{
+    width: 50%;
+}
+.width25{
+    width:25%;
+}
+.txt{
+    padding: 5em;
+}
+.campamentos{
+    text-align: center;
+    align-items: center;
+}
+.servicios{
+    text-align: center;
+    padding: 4em;
+    align-items: center;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;   
+}
+.logo{
+    width: 120px;
+}
+.icono{
+    margin:1em;
+    width: 30%;
+}
+.iconocamp{
+    width: 25%;
+}
+.blanco{
+    background-color: white;
+    color: #56B2A1;
+}
+.redes .width50{
+    width: 45%;
+}
+.contacto{
+    background-image: url('img/fondomonte.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.form-group input{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #56B2A1;
+    padding: 1.5em 0;
+}
+.form-group textarea{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #56B2A1;
+    padding: 1.5em 0;
+}
+/*movil*/
+
+@media screen and (max-width:940px){ 
+    header{
+        float: none;
+        width: 100%;
+    }
+    
+nav{
+    display: none;
+    width:100%;
+	float:none;
+    background-color: white;
+    }	
+nav ul {
+  	display: block;
+	width:100%;
+    background-color: white;
+  	}
+
+nav ul li a{
+	text-align:center;
+	}
+.btnnav {
+	display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ 
+    
+    
+    .cabeceraindex{
+        padding: 8em 3em;
+        text-align: center;
+    }  
+    .cabeceraindex .boton{
+        width: 90%;
+        margin-top: 5em;
+    }
+    .width50{
+        width: 100%;
+    }
+    .width25{
+        width: 45%;
+    }
+    .servicios{
+        padding: 5em 2em;
+    }
+    .contacto{
+background-image: none;    }
+    .contacto .redes .width50{
+        width: 100%;
+    }
+    .txt{
+        padding: 5em 3em;
+    }
+    .boton{
+        width: 90%;
+    }
+    .redes{
+        text-align: ;
+    }
+    
+.redes .width50 .flex{
+    justify-content: ;
+}
+.redes .width50 .flex .width25 {
+    width: 10%;
+}
+    .order{
+        order: -1;
+    }
+    
+}
+@media screen and (max-width:640px){
+    h1{
+        font-size: 2.7em;
+    }
+    h3{
+        font-size: 0.9em;
+    }
+    .txt{
+        padding: 3em 1.5em;
+    }
+    
+.redes .width50 .flex .width25 {
+    width: 20%;
+}
+    .cabeceramendizale{
+        padding: 8em 1.5em;
+        background-position: right bottom;
+    }
+}
