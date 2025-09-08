@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    color: darkblue;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6, .portfolio-grid span, .animate-box span,#my-text, .fh5co-nav ul li a{
+    font-family: 'Tenor Sans', sans-serif;
+    color: darkblue;
+}
+.fh5co-nav ul li a{font-size: 0.8em; text-transform: uppercase;letter-spacing: 1px;}
+#my-text{    font-size: 4vw; }
+h1{
+    font-size: 3em;
+}
+#fh5co-intro h2{text-align: center; margin-bottom: 1em;}
+.detail h2{margin-bottom: 1em;}
+b{
+    font-family: 'Archivo Black', sans-serif;
+   color: darkblue;
+}
+p{
+    font-size:  14px !important;
+    line-height: 1.8em;
+}
+::selection{
+    background-color: gainsboro;
+}
+a{color: inherit; text-decoration: underline;}
+a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; transition-timing-function: ease-in;}
+.portfolio-grid h3, .portfolio-grid span, .animate-box span{
+    color: darkblue !important;
+}
+.portfolio-grid span, .animate-box span{
+    text-transform: uppercase;
+}
+.portfolio-grid:after{
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.fh5co-logo a{
+    font-size: 1em !important;
+}
+#fh5co-intro {
+    padding: 2em 0 4em 0;
+}
+.js-fh5co-nav-toggle{
+    display: none;
+}
+.btn-email:hover{
+    background-color: gainsboro; color:white;
+}
+.shadow{box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);}
+/*
+.portfolio-grid{
+    background-color:white;
+}
+.portfolio-grid:hover img{
+    opacity: .1;
+    background-color:white;
+}
+*/
+.js-gotop {line-height:1; transform: rotate(90deg);}
+.gototop a {background:transparent;}
+
+/*marquesina*/
+.marquee-footer {
+  position: absolute;
+  bottom: 00px;
+  right: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background-color: darkblue;
+  font-family: 'Archivo Black', sans-serif;
+   color: white;
+    letter-spacing: 1px;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.marquee-footer div {
+  line-height: 30px;
+  overflow: hidden;
+  width: 200%;
+  position: absolute;
+  animation: marquee-footer 20s linear infinite;
+}
+
+.marquee-footer span {
+  float: left;
+}
+
+@keyframes marquee-footer {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px){
+   #fh5co-intro h2{text-align: left;;} 
+}
