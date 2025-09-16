@@ -59,8 +59,8 @@ a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; tran
 }
 */
 .js-gotop {line-height:1; transform: rotate(90deg);}
-.gototop a {background:transparent;}
-
+.gototop a {height: auto; padding: 10px; background: white;}
+.gototop {right: 0;}
 /*marquesina*/
 .marquee-footer {
   position: absolute;
@@ -97,12 +97,11 @@ a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; tran
 /*RESPONSIVE*/
 @media screen and (max-width: 768px){
    #fh5co-intro h2{text-align: left;}
-        .portfolio-grid .desc {
+.portfolio-grid .desc {
         opacity: 1;
         background: white;
         margin: 10px;
+        padding: 15px;
     }
-    .gototop a {height: auto; padding: 10px; background: white;
-
+.gototop a {}
 }
-
