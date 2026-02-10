@@ -49,6 +49,9 @@ a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; tran
     background-color: gainsboro; color:white;
 }
 .shadow{box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);}
+.p-4{
+    padding:1em;
+}
 /*
 .portfolio-grid{
     background-color:white;
@@ -104,4 +107,5 @@ a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; tran
         padding: 15px;
     }
 .gototop a {}
+
 }
