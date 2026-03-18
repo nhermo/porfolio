@@ -24,7 +24,7 @@ p{
 }
 ::selection{
     background-color: #d7ff7b;
-    color: black;
+    color: darkblue;
 }
 a{color: inherit; text-decoration: underline;}
 a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; transition-timing-function: ease-in;}
