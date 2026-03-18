@@ -23,7 +23,8 @@ p{
     line-height: 1.8em;
 }
 ::selection{
-    background-color: gainsboro;
+    background-color: #d7ff7b;
+    color: black;
 }
 a{color: inherit; text-decoration: underline;}
 a:hover{text-decoration: none; transition-delay: 1; transition-duration: 1; transition-timing-function: ease-in;}
